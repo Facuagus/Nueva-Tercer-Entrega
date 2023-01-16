@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.minavbar{
+    padding: 10px;
+    background-color:   #183637  ;
+    
+    
+
+}
+.minavbar > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.minavbar > ul > li > a{
+    text-decoration: none;
+    color: rgb(248, 196, 196);
+    font-size: 30px;
+    padding: 20px;
+    
+}
+.navbar{
+    background-color: #264B52 !important
+}
+.navbar-brand{
+    color: rgb(248, 196, 196)8;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.nav-link{
+    color: rgb(248, 196, 196);
+    font-size: 25px;
+}
+.HeaderIndex{
+    background-image: url(../imgs/Espada-de-Elendil.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+}
+.HeaderIndex-Info{
+    color: rgb(227, 196, 196);
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 120px;
+}
+.h1{
+    color: rgb(227, 196, 196);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.pagina{
+    background-color: #183637 ;
+}
+.tarjetaOrcrist{
+    display: flex;
+    flex-direction: column;
+}
+.TituloOrcrist{
+    align-self: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: rgb(248, 196, 196);
+    font-style: italic;
+    border: solid;
+    padding: 10px;
+    border-radius: 10px
+}
+.Orcrist{
+    align-self: center;
+    width: 400px;
+    height: 400px;
+    margin-top: 15px;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(248, 196, 196);
+}
+.textoorcrist{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+    font-weight: 500;
+    color: rgb(248, 196, 196);
+    font-style: italic;
+}
+.botonOrc{
+    align-self: center;
+    width: 110px;
+    padding: 5px;
+    color: #183637;
+    background-color: rgb(248, 196, 196);
+    border-radius: 10px;
+
+}
+.botonOrc > a{
+    text-decoration: none;
+    color: #264B52;
+}
