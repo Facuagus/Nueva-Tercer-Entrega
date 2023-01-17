@@ -6,7 +6,7 @@
 }
 .minavbar{
     padding: 10px;
-    background-color:   #183637  ;
+    background-color:   #264B52  ;
     
     
 
@@ -108,7 +108,7 @@
     justify-content: center;
     margin-top: 50px;
     font-style: italic;
-    font-size: 75px;
+    font-size: 45px;
     color:rgb(248, 196, 196);
     border: solid;
 }
@@ -136,4 +136,55 @@
     font-weight: 500;
     color: rgb(248, 196, 196);
     font-style: italic;
+}
+.tarjetaCarl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carl{
+    object-fit: contain;
+    margin-top: 55px;
+    width: 100%;
+    height: 350px;
+}
+.nombre2{
+    font-style: italic;
+    font-size: 25px;
+    color:rgb(248, 196, 196);
+    padding: 5px;
+}
+.loremcarl{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+    font-weight: 500;
+    color: rgb(248, 196, 196);
+    font-style: italic;
+}
+.footer{
+    margin-top: 150px;
+    background-color: #264B52;
+    border: solid;
+    border-color: rgb(248, 196, 196);
+    display: flex;
+    justify-content: space-between;
+}
+.footertitulo{
+    margin-left: 10px;
+    color: rgb(248, 196, 196);
+}
+.footerimgs{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footercontacto2{
+    color: rgb(248, 196, 196);
+}
+.logofooter{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 45px;
+    height: 45px;
 }
