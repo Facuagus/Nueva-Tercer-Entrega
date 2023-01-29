@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Royal Smithy</title>
+    <title>Herrería Royalty</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/ff2de0ad93.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,36 +15,93 @@
 </head>
 <body class="pagina">
     <nav class="minavbar">
+        <i class="fa-solid fa-bars"></i>
         <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="../pages/contactanos.html">Contactános</a></li>
-            <li><a href="../pages/quienessomos.html">Quiénes somos</a></li>
-            
+            <li><a class="hover" href="../index.html">Inicio</a></li>
+            <li><a class="hover" href="#">Productos</a></li>
+            <li><a class="hover" href="./contactanos.html">Contactános</a></li>
+            <li><a class="hover" href="./quienessomos.html">Quiénes somos</a></li>
         </ul>
+        <img class="logo" src="../assets/imgs/favicon.png" alt="imagen del logo">
     </nav>
     <header class="HeaderIndex">
         <div class="HeaderIndex-Info">
-            <h1>Herrería Royalty</h1>
-            <p class="h1">La herrería de espadas NÚMERO 1 del país.</p>
+            <h1 class="title">Herrería Royalty</h1>
         </div>
     </header>
-    <footer class="footer">
-        <div class="footercontacto">
-            <h3 class="footertitulo">¡Contáctanos en nuestras redes!</h3>
-            <div class="footerimgs">
-                <i class="fa-brands fa-whatsapp"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-facebook"></i>
-            </div>    
-        </div>
-        <div>
-            <img class="logofooter" src="../assets/imgs/favicon.png" alt="foto del logo">
-        </div>
-        <div class="footercontacto2">
-            <h3>Herrería Royalty</h3>
-            <p>Lungotevere Castello, 50, 00193 Roma RM, Italia</p>
-            <p>Facundo Agustín Gonzalez, todos los derechos reservados</p>
-        </div>
+    <main>
+        <h1 class="TituloEspadas">Espadas ficticias</h1>
+        <div class="Tarjetas">
+            <div class="TarjetaProducto">
+                <img class="ProductoOrcrist" src="../assets/imgs/orcrist_thorin.jpg" alt="foto espada orcrist">
+                <div class="TarjetaEspada">
+                    <h2 class="EspadaOrcrist">Espada Orcrist</h2>
+                    <p class="DescOrcrist">Orcrist es la espada de Thorin que fue forjada en el antiguo reino de Gondolin. Esta espada es conocida como la Hendedora de Trasgos y también llamada como "Mordedora" por los mismos trasgos</p>
+                    <button class="botonOrc"><a href="./hojadeproducto.html">Ver espada</a></button>
+                </div>
+            </div>
+            <div class="TarjetaProducto">
+                <img class="ProductoOrcrist" src="../assets/imgs/Glamdring.jfif" alt="foto espada orcrist">
+                <div class="TarjetaEspada">
+                    <h2 class="EspadaOrcrist">Espada Glamdring</h2>
+                    <p class="DescOrcrist"> Glamdring Martillo de Enemigos era la espada de Gandalf, encontrada en una cueva de unos trolls junto con Orcrist, la espada de Thorin</p>
+                    <button class="botonOrc">Ver espada</button>
+                </div>
+            </div>
+            <div class="TarjetaProducto">
+                <img class="ProductoOrcrist" src="../assets/imgs/Anduril.jfif" alt="foto espada orcrist">
+                <div class="TarjetaEspada">
+                    <h2 class="EspadaOrcrist">Espada Anduril</h2>
+                    <p class="DescOrcrist"> Andúril es la espada portada por el futuro rey Aragorn II durante toda la Guerra del Anillo desde su salida de Rivendel como parte de la Comunidad del Anillo.</p>
+                    <button class="botonOrc">Ver espada</button>
+                </div>
+            </div>
+            <div class="TarjetaProducto">
+                <img class="ProductoOrcrist" src="../assets/imgs/Anduril.jfif" alt="foto espada orcrist">
+                <div class="TarjetaEspada">
+                    <h2 class="EspadaOrcrist">Espada Dardo</h2>
+                    <p class="DescOrcrist"> Dardo, también llamada Aguijón[1] y Sting[2], es una espada ficticia de la novela "El Señor de los Anillos" escrita por J.R.R. Tolkien. Fue fabricada por los noldor en Gondolin, en la Primera Edad del Sol.</p>
+                    <button class="botonOrc">Ver espada</button>
+                </div>
+            </div>
+            <div class="TarjetaProducto">
+                <img class="ProductoOrcrist" src="../assets/imgs/Espada del Olimpo.jpg" alt="foto espada orcrist">
+                <div class="TarjetaEspada">
+                    <h2 class="EspadaOrcrist">Espada del Olimpo</h2>
+                    <p class="DescOrcrist"> La Espada del Olimpo es una gran espada de energía extremadamente poderosa que al llenarla de energía, desprende una luz azul brillante. Fue creada por Zeus, forjada de los Cielos y la Tierra durante la Gran Guerra para desterrar a los Titanes al Tártaro, y poner fin a la guerra de una vez por todas.</p>
+                    <button class="botonOrc">Ver espada</button>
+                </div>
+            </div>
+            <div class="TarjetaProducto">
+                <img class="ProductoOrcrist" src="../assets/imgs/Espadas del caos.jpg" alt="foto espada orcrist">
+                <div class="TarjetaEspada">
+                    <h2 class="EspadaOrcrist">Espadas del Caos</h2>
+                    <p class="DescOrcrist"> Las Espadas de Caos, forjadas en las nauseabundas profundidades del Hades. Una vez adheridas, las hojas se mantuvieron así, encadenadas a la carne chamuscada, una prolongación del cuerpo de su portador, un recordatorio permanente de la promesa de Kratos.</p>
+                    <button class="botonOrc">Ver espada</button>
+                </div>
+            </div>     
+        </div>        
+    </main>
+    <footer class="foot">
+        <div class="footer row">
+            <div class="footercontacto col-sm-4">
+                <h3 class="footertitulo">¡Encuéntranos!</h3>
+                <div class="footerimgs">
+                    <i class="fa-brands fa-whatsapp">  341-3333333</i>
+                    <i class="fa-brands fa-instagram">  @royaltysmith</i>
+                    <i class="fa-brands fa-youtube">  Herreria Royalty</i>
+                    <i class="fa-brands fa-facebook">  Royalty Herreria</i>
+                </div>    
+            </div>
+            <div class=" parrafooter col-sm-4">
+                <p>La herrería NÚMERO 1 del país.</p>
+            </div>
+            <div class="footercontacto2 col-sm-4">
+                <h3>Herrería Royalty</h3>
+                <p>Lungotevere Castello, 50, 00193 Roma RM, Italia</p>
+                <p>Facundo Agustín Gonzalez, todos los derechos reservados</p>
+            </div>
+        </div>    
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>

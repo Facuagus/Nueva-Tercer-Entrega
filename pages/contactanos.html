@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Royal Smithy</title>
+    <title>Herrería Royalty</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/ff2de0ad93.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,36 +15,66 @@
 </head>
 <body class="pagina">
     <nav class="minavbar">
+        <i class="fa-solid fa-bars"></i>
         <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../pages/Productos.html">Productos</a></li>
-            <li><a href="#">Contactános</a></li>
-            <li><a href="../pages/quienessomos.html">Quiénes somos</a></li>
-            
+            <li><a class="hover" href="../index.html">Inicio</a></li>
+            <li><a class="hover" href="./Productos.html">Productos</a></li>
+            <li><a class="hover" href="#">Contactános</a></li>
+            <li><a class="hover" href="./quienessomos.html">Quiénes somos</a></li>
         </ul>
+        <img class="logo" src="../assets/imgs/favicon.png" alt="imagen del logo">
     </nav>
     <header class="HeaderIndex">
         <div class="HeaderIndex-Info">
-            <h1>Herrería Royalty</h1>
-            <p class="h1">La herrería de espadas NÚMERO 1 del país.</p>
+            <h1 class="title">Herrería Royalty</h1>
         </div>
     </header>
-    <footer class="footer">
-        <div class="footercontacto">
-            <h3 class="footertitulo">¡Contáctanos en nuestras redes!</h3>
-            <div class="footerimgs">
-                <i class="fa-brands fa-whatsapp"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-facebook"></i>
-            </div>    
-        </div>
+    <main>
+        <h3 class="titulocontactanos">¡Contáctanos!</h1>
         <div>
-            <img class="logofooter" src="../assets/imgs/favicon.png" alt="foto del logo">
-        </div>
-        <div class="footercontacto2">
-            <h3>Herrería Royalty</h3>
-            <p>Lungotevere Castello, 50, 00193 Roma RM, Italia</p>
-            <p>Facundo Agustín Gonzalez, todos los derechos reservados</p>
-        </div>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.5253863189346!2d12.464087315441871!3d41.90306317922026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13258a8711e7a4d1%3A0x366c111ce77d4189!2sCastillo%20de%20Sant&#39;Angelo!5e0!3m2!1ses!2sar!4v1669856272103!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h3 class="castillo">Castillo de Sant'Angelo</h3>
+            <p class="castilloinfo">El taller de herrería fundado en el castillo Sant'Angelo es un lugar histórico y único que combina la antigua tradición de la herrería con la impresionante arquitectura del castillo. Este taller se encuentra en el interior del castillo, en una de las salas más grandes y antiguas, y ha sido operado por herreros experimentados durante siglos</p>
+            <h3 class="aprender">¿Te interesaría aprender con ellos?</h3>
+            <h4 class="solicitud">¡Envianos tu solicitud!</h4>
+            <form class="form" action="" method="get">
+                <input type="text" name="Nombre" placeholder="Ingrese su nombre">            
+                <br>
+                <br>
+                <input type="text" name="Apellido" placeholder="Ingrese su apellido">
+                <br>
+                <br>
+                <input type="number" name="DNI" placeholder="Inserte DNI">
+                <br>
+                <br>
+                <p class="contanos">¡Contanos por qué querés aprender herrería con nosotros!</p>
+                <br>
+                <textarea name="Mensaje" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+                <input class="botonform" type="submit" value="Enviar">
+            </form>
+    </main>
+    <footer class="foot">
+        <div class="footer row">
+            <div class="footercontacto col-sm-4">
+                <h3 class="footertitulo">¡Encuéntranos!</h3>
+                <div class="footerimgs">
+                    <i class="fa-brands fa-whatsapp">  341-3333333</i>
+                    <i class="fa-brands fa-instagram">  @royaltysmith</i>
+                    <i class="fa-brands fa-youtube">  Herreria Royalty</i>
+                    <i class="fa-brands fa-facebook">  Royalty Herreria</i>
+                </div>    
+            </div>
+            <div class=" parrafooter col-sm-4">
+                <p>La herrería NÚMERO 1 del país.</p>
+            </div>
+            <div class="footercontacto2 col-sm-4">
+                <h3>Herrería Royalty</h3>
+                <p>Lungotevere Castello, 50, 00193 Roma RM, Italia</p>
+                <p>Facundo Agustín Gonzalez, todos los derechos reservados</p>
+            </div>
+        </div>    
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>

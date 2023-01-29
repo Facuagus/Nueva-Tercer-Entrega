@@ -8,6 +8,17 @@
     padding: 10px;
     background-color:   #264B52  ;
     height: 60px;
+    position: relative;
+}
+.logo{
+    width: 48px;
+    margin: 10px;
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+}
+.minavbar > .fa-bars{
+    display: none;
 }
 .minavbar > ul {
     list-style: none;
@@ -22,6 +33,44 @@
 }
 .hover:hover{
     color: black;
+}
+@media(max-width:576px){
+    .minavbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .minavbar > .fa-bars{
+        display: block;
+        color: black;
+        font-size: 30px;
+        padding: 10px;    
+    }
+    .minavbar > .fa-bars:hover + ul{
+        left: 0;
+    }
+    .minavbar > ul{
+        position: fixed;
+        flex-direction: column;
+        gap: 13px;
+        background-color: #264B52 ;
+        width: 300px;
+        height: 100vh;
+        justify-content: start;
+        padding-top: 60px;
+        align-items: center;
+        left: -300px;
+        transition: 0.2s;
+    }
+    .minavbar > ul:hover{
+        left: 0;
+    }
+    .minavbar > ul > li > a{
+        font-size: 28px;
+    }
+    .logo{
+        position: static;
+    }
 }
 .HeaderIndex{
     background-image: url(../imgs/Espada-de-Elendil.webp);
@@ -38,6 +87,11 @@
     font-weight: 800;
     margin-bottom: 80px;
 }
+@media(max-width:576px){
+    .title{
+        width: 320px;
+    }
+}
 .pagina{
     background-color: #183637 ;
 }
@@ -51,10 +105,11 @@
     font-size: 40px;
     color: rgb(248, 196, 196);
     border: solid;
+    border-color: black;
     padding: 10px;
     border-radius: 10px
 }
-.Orcrist{
+.Orcrist, .ImagenEspadaOrcrist{
     align-self: center;
     width: 400px;
     height: 400px;
@@ -70,7 +125,7 @@
     font-weight: 500;
     color: rgb(248, 196, 196);
 }
-.botonOrc{
+.botonOrc, .botonform{
     align-self: center;
     width: 180px;
     padding: 5px;
@@ -82,6 +137,9 @@
     text-decoration: none;
     color: #264B52;
 }
+.botonOrc:hover{
+    background-color: black;
+}
 .testimonios{
     display: flex;
     justify-content: center;
@@ -89,6 +147,7 @@
     font-size: 45px;
     color:rgb(248, 196, 196);
     border: solid;
+    border-color: black;
 }
 .tarjetaGiorgio{
     display: flex;
@@ -127,7 +186,7 @@
     width: 100%;
     height: 350px;
 }
-.nombre2{
+.nombre2, .castillo{
     font-size: 25px;
     color:rgb(248, 196, 196);
     padding: 5px;
@@ -146,6 +205,7 @@
     background-color: #264B52;
     border: solid;
     border-color: rgb(248, 196, 196);
+    margin-top: 45px;
 }
 .footer{
     width: 100%;
@@ -153,6 +213,7 @@
 .footertitulo{
     margin-left: 10px;
     color: rgb(248, 196, 196);
+    font-size: 20px;
 }
 .footerimgs{
     display: flex;
@@ -161,15 +222,167 @@
     gap: 10px;
     padding: 2px;
     color: rgb(248, 196, 196);
-    font-size: small;
+    font-size: 10px;
+}
+.parrafooter{
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    font-weight: 800;
 }
 .footercontacto2{
     color: rgb(248, 196, 196);
-    font-size: small;
+    font-size: 12px;
 }
-.parrafooter{
-    color: rgb(248, 196, 196);
-    font-size: 20px;
+.tituloquienes, .Principios, .titulocontactanos, .TituloEspadas, .TituloEspadaOrcrist, .Creacion{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(248, 196, 196);
+    border: solid;
+    border-color: black;
+    padding: 10px;
+    border-radius: 10px
+}
+.carousel-tarjeta{
+    width: 650px;
+    margin-left: 25%;
+    margin-top: 55px;
+}
+@media(max-width:576px){
+    .carousel-tarjeta{
+        display: block;
+        width: fit-content;
+        margin-left: 0%;
+    }
+}
+.FraseStephen, .Stephen{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    color: rgb(248, 196, 196);
+}
+.Principios{
+    margin-top: 85px;
+}
+.history, .taller{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    column-count: 2;
+    font-weight: 500;
+    color: rgb(248, 196, 196);
+    padding: 15px;
+    font-style: italic;
+}
+.mapa{
+    margin-left: 25%;
+    margin-top: 55px;
+}
+@media(max-width:576px){
+    .mapa{
+        display: flex;
+        justify-self: start;
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.castillo{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.castilloinfo, .CreacionDesc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(248, 196, 196);
+    padding: 15px;
+    font-style: italic;
+}
+.aprender, .solicitud{
+    font-size: 25px;
+    color:rgb(248, 196, 196);
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    text-align: center;
+    color: rgb(248, 196, 196);
+}
+.botonform{
+    text-decoration: none;
+    color: #264B52;
+}
+.botonform:hover{
+    background-color: black;
+}
+.Tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.TarjetaProducto{
+    display: flex;
+    width: 600px;
+    column-gap: 10px;
+    margin: 10px;
+}
+.TarjetaEspada{
+    margin-top: 75px;
+}
+.ProductoOrcrist{
+    margin-top: 75px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: solid;
+    border-width: 05px;
+}
+.EspadaOrcrist{
+    color: rgb(248, 196, 196);
+}
+.DescOrcrist{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.Producto{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.ProductoDesc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: rgb(248, 196, 196);
+    padding: 15px;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}
+.Precio{
+    display: flex;
+    justify-content: center;
+    color: #bf930d;
+    font-size: 40px;
+}
+.Creacion{
+    margin-top: 50px;
+}
+.videoyt{
+    margin-left: 27%;
+    margin-top: 50px;
+    border: solid;color: rgb(248, 196, 196);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+@media(max-width:576px){
+    .videoyt{
+        display: flex;
+        justify-self: start;
+        margin-left: 0%;
+        width: 100%;
+    }
 }

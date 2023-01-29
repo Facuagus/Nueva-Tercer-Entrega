@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Royal Smithy</title>
+    <title>Herrería Royalty</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/ff2de0ad93.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,18 +15,97 @@
 </head>
 <body class="pagina">
     <nav class="minavbar">
+        <i class="fa-solid fa-bars"></i>
         <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./Productos.html">Productos</a></li>
-            <li><a href="./contactanos.html">Contactános</a></li>
-            <li><a href="#">Quiénes somos</a></li>
-            
+            <li><a class="hover" href="../index.html">Inicio</a></li>
+            <li><a class="hover" href="./Productos.html">Productos</a></li>
+            <li><a class="hover" href="./contactanos.html">Contactános</a></li>
+            <li><a class="hover" href="#">Quiénes somos</a></li>
         </ul>
+        <img class="logo" src="../assets/imgs/favicon.png" alt="imagen del logo">
     </nav>
     <header class="HeaderIndex">
         <div class="HeaderIndex-Info">
-            <h1>Herrería Royalty</h1>
-            <p class="h1">La herrería de espadas NÚMERO 1 del país.</p>
+            <h1 class="title">Herrería Royalty</h1>
         </div>
     </header>
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>  
+    <main>
+        <h2 class="tituloquienes">¿Quiénes somos?</h2>
+        <div id="carouselExample" class="carousel slide carousel-tarjeta">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/imgs/forged in fire.webp" class="d-block w-100" alt="foto forged in fire">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/imgs/forged in fire 4.jpg" class="d-block w-100" alt="foto2 forged in fire">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/imgs/forged in fire 3.jpg" class="d-block w-100" alt="foto3 forged in fire">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div>
+            <h2 class="FraseStephen">"La simplicidad es una cuestión de gusto"</h2>
+            <h3 class="Stephen">-Stephen Hawking</h3>
+          </div>
+        </div>
+        <div>  
+          <h3 class="Principios">Un viaje a nuestros principios</h3>
+          <p class="history">La historia de la herrería "Royalty" comienza en Italia con cinco amigos que compartían una pasión común: la herrería. Juntos, decidieron dejar sus trabajos y unir sus habilidades para crear su propia empresa. Cada uno de ellos aportó su experiencia y conocimientos en la materia: uno era experto en forjar, otro en diseño, otro en la venta y así sucesivamente.
+            Con su capital inicial, alquilaron un pequeño taller en un barrio industrial y comenzaron a trabajar en proyectos pequeños para ganar experiencia y reputación. A medida que fueron creciendo y mejorando en su oficio, comenzaron a recibir pedidos más grandes y más complejos.
+            Con el tiempo, la herrería "Royalty" se convirtió en una empresa reconocida en el mundo y en el mercado por su calidad en el trabajo y su excelente servicio al cliente. Sus cinco fundadores se convirtieron en líderes en su campo y su negocio continuó creciendo y expandiéndose. Ahora, años después, la herrería "Royalty" sigue siendo una empresa exitosa y estable, con un equipo de trabajadores altamente capacitados de sucursales a lo largo del mundo y una gran cantidad de clientes satisfechos.</p>
+            <div id="carouselExample1" class="carousel slide carousel-tarjeta">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/imgs/5fe99f978791f.jpg" class="d-block w-100" alt="foto de herreria">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/imgs/taller de herreria.webp" class="d-block w-100" alt="foto de taller de herreria">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/imgs/tallerherreria.jpg" class="d-block w-100" alt="foto de taller de herreria">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+          </div>
+          <p class="taller">El taller de herrería en Argentina es un lugar de trabajo especializado en la creación y reparación de espadas y armaduras. Se utilizan herramientas y maquinaria específicas para trabajar con diferentes tipos de metales. Los herreros de Royalty en Argentina son expertos en la forja, soldadura, corte y formado de metales para crear espadas, armaduras, escudos, y otros objetos decorativos y utilitarios. El taller suele estar equipado con herramientas manuales y maquinaria. Los herreros son profesionales altamente capacitados y experimentados en su oficio, y su trabajo es valorado en la forja y las industrias de temática medieval.</p>
+        </div>    
+    </main>
+    <footer class="foot">
+        <div class="footer row">
+            <div class="footercontacto col-sm-4">
+                <h3 class="footertitulo">¡Encuéntranos!</h3>
+                <div class="footerimgs">
+                    <i class="fa-brands fa-whatsapp">  341-3333333</i>
+                    <i class="fa-brands fa-instagram">  @royaltysmith</i>
+                    <i class="fa-brands fa-youtube">  Herreria Royalty</i>
+                    <i class="fa-brands fa-facebook">  Royalty Herreria</i>
+                </div>    
+            </div>
+            <div class=" parrafooter col-sm-4">
+                <p>La herrería NÚMERO 1 del país.</p>
+            </div>
+            <div class="footercontacto2 col-sm-4">
+                <h3>Herrería Royalty</h3>
+                <p>Lungotevere Castello, 50, 00193 Roma RM, Italia</p>
+                <p>Facundo Agustín Gonzalez, todos los derechos reservados</p>
+            </div>
+        </div>    
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
