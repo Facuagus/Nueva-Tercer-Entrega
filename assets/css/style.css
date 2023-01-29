@@ -7,34 +7,21 @@
 .minavbar{
     padding: 10px;
     background-color:   #264B52  ;
-    
-    
-
+    height: 60px;
 }
 .minavbar > ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    
 }
 .minavbar > ul > li > a{
     text-decoration: none;
     color: rgb(248, 196, 196);
     font-size: 30px;
     padding: 20px;
-    
 }
-.navbar{
-    background-color: #264B52 !important
-}
-.navbar-brand{
-    color: rgb(248, 196, 196)8;
-    font-size: 30px;
-    margin-left: 10px;
-}
-.nav-link{
-    color: rgb(248, 196, 196);
-    font-size: 25px;
+.hover:hover{
+    color: black;
 }
 .HeaderIndex{
     background-image: url(../imgs/Espada-de-Elendil.webp);
@@ -45,15 +32,11 @@
     width: 100%;
     height: 350px;
 }
-.HeaderIndex-Info{
-    color: #183637;
-    font-size: 40px;
-    margin-bottom: 120px;
-}
-.h1{
-    color: #203a3a;
-    font-size: 25px;
+.title{
+    color: rgb(0, 0, 0);
+    font-size: 70px;
     font-weight: 800;
+    margin-bottom: 80px;
 }
 .pagina{
     background-color: #183637 ;
@@ -89,12 +72,11 @@
 }
 .botonOrc{
     align-self: center;
-    width: 110px;
+    width: 180px;
     padding: 5px;
     color: #183637;
     background-color: rgb(248, 196, 196);
     border-radius: 10px;
-
 }
 .botonOrc > a{
     text-decoration: none;
@@ -123,6 +105,8 @@
     font-size: 25px;
     color:rgb(248, 196, 196);
     padding: 5px;
+    border: solid;
+    margin-top: 10px;
 }
 .loremgiorgio{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -130,6 +114,7 @@
     margin: 10px;
     font-weight: 500;
     color: rgb(248, 196, 196);
+    padding: 40px;
 }
 .tarjetaCarl{
     display: flex;
@@ -146,6 +131,8 @@
     font-size: 25px;
     color:rgb(248, 196, 196);
     padding: 5px;
+    border: solid;
+    margin-top: 10px;
 }
 .loremcarl{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -153,14 +140,15 @@
     margin: 10px;
     font-weight: 500;
     color: rgb(248, 196, 196);
+    padding: 40px;
 }
-.footer{
-    margin-top: 150px;
+.foot{
     background-color: #264B52;
     border: solid;
     border-color: rgb(248, 196, 196);
-    display: flex;
-    justify-content: space-between;
+}
+.footer{
+    width: 100%;
 }
 .footertitulo{
     margin-left: 10px;
@@ -168,15 +156,20 @@
 }
 .footerimgs{
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 10px;
+    padding: 2px;
+    color: rgb(248, 196, 196);
+    font-size: small;
 }
 .footercontacto2{
     color: rgb(248, 196, 196);
+    font-size: small;
 }
-.logofooter{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 45px;
-    height: 45px;
+.parrafooter{
+    color: rgb(248, 196, 196);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
 }
