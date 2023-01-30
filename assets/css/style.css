@@ -90,6 +90,8 @@
 @media(max-width:576px){
     .title{
         width: 320px;
+        color: rgb(248, 196, 196);
+        font-weight: 450;
     }
 }
 .pagina{
